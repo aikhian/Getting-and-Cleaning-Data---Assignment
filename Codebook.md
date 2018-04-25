@@ -23,11 +23,10 @@ For each record in the dataset it is provided:
 
 The description of the variables are as follows:
 
-Variable Descriptions	
-Variable	Description
 activities	The activity performed
 subject	Subject ID
 tbodyacc-mean-x	Mean time for acceleration of body for X direction
+
 tbodyacc-mean-y	Mean time for acceleration of body for Y direction
 tbodyacc-mean-z	Mean time for acceleration of body for Z direction
 tbodyacc-std-x	Standard deviation of time for acceleration of body for X direction
