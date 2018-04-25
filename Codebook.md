@@ -24,27 +24,47 @@ For each record in the dataset it is provided:
 The description of the variables are as follows:
 
 activities	The activity performed
+
 subject	Subject ID
+
 tbodyacc-mean-x	Mean time for acceleration of body for X direction
 
 tbodyacc-mean-y	Mean time for acceleration of body for Y direction
+
 tbodyacc-mean-z	Mean time for acceleration of body for Z direction
+
 tbodyacc-std-x	Standard deviation of time for acceleration of body for X direction
+
 tbodyacc-std-y	Standard deviation of time for acceleration of body for Y direction
+
 tbodyacc-std-z	Standard deviation of time for acceleration of body for Z direction
+
 tgravityacc-mean-x	Mean time of acceleration of gravity for X direction
+
 tgravityacc-mean-y	Mean time of acceleration of gravity for Y direction
+
 tgravityacc-mean-z	Mean time of acceleration of gravity for Z direction
+
 tgravityacc-std-x	Standard deviation of time of acceleration of gravity for X direction
+
 tgravityacc-std-y	Standard deviation of time of acceleration of gravity for Y direction
+
 tgravityacc-std-z	Standard deviation of time of acceleration of gravity for Z direction
+
 tbodyaccjerk-mean-x	Mean time of body acceleration jerk for X direction
+
 tbodyaccjerk-mean-y	Mean time of body acceleration jerk for Y direction
+
 tbodyaccjerk-mean-z	Mean time of body acceleration jerk for Z direction
+
 tbodyaccjerk-std-x	Standard deviation of time of body acceleration jerk for X direction
+
 tbodyaccjerk-std-y	Standard deviation of time of body acceleration jerk for Y direction
+
 tbodyaccjerk-std-z	Standard deviation of time of body acceleration jerk for Z direction
+
 tbodygyro-mean-x	Mean body gyroscope measurement for X direction
+
 tbodygyro-mean-y	Mean body gyroscope measurement for Y direction
 tbodygyro-mean-z	Mean body gyroscope measurement for Z direction
 tbodygyro-std-x	Standard deviation of body gyroscope measurement for X direction
