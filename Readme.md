@@ -4,13 +4,11 @@
 # Names of Variables Features come from "features.txt"
 # levels of Variable Activity come from "activity_labels.txt"
 
-getwd()
-setwd("C:/Users/leona/OneDrive/Desktop/Data Analytics/Courera/Course 3 - Getting and Cleaning Data/Assignment/UCI HAR Dataset")
+# Install required packages as follows:
 install.packages("plyr")
 install.packages("data.table")
 library(plyr)
 library(data.table)
-options(max.print = 999999)
 
 # Part 1 - Merges the training and test sets to create one data set.
 
@@ -29,18 +27,13 @@ yTrain <- read.table('./train/y_train.txt', header = FALSE)
 yTest <- read.table('./test/y_test.txt', header = FALSE)
 yData <- rbind(yTrain, yTest)
 
-dim(xData)
-dim(yData)
-dim(subData)
-str(xData)
-str(yData)
-str(subData)
-
+# Renaming the columns
 names(subData) <- c("Subject")
 names(yData) <- c("Activity")
 featureName <- read.table('./features.txt', header = FALSE)
 names(xData) <- featureName$V2
 
+# Combine all the data into one dataframe
 dataCombine <- cbind(yData, subData)
 allData <- cbind(dataCombine, xData)
 str(allData)
